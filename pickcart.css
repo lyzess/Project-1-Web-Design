@@ -112,11 +112,12 @@ nav {
     margin-bottom: 5vh;
 }
 .card{
-    margin: auto;
-    max-width: 950px;
-    width: 90%;
+    margin: left;
+    max-width: 850px;
+    width: 60%;
+    margin-right: 10%;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 1rem;
+    border-radius: 2rem;
     border: transparent;
 }
 @media(max-width:767px){
@@ -127,8 +128,10 @@ nav {
 .cart{
     background-color: #fff;
     padding: 4vh 5vh;
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 @media(max-width:767px){
     .cart{
@@ -139,15 +142,16 @@ nav {
 }
 .summary{
     background-color: #ddd;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     padding: 4vh;
     color: rgb(65, 65, 65);
 }
 @media(max-width:767px){
     .summary{
     border-top-right-radius: unset;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
     }
 }
 .summary .col-2{
@@ -181,13 +185,13 @@ img{
     width: 3.5rem;
 }
 .back-to-shop{
-    margin-top: 4.5rem;
+    margin-top: 0.4rem;
 }
 h5{
-    margin-top: 4vh;
+    margin-top: 2vh;
 }
 hr{
-    margin-top: 1.25rem;
+    margin-top: 0.25rem;
 }
 form{
     padding: 2vh 0;
