@@ -3,7 +3,7 @@
     float: left;
     width: 100px;
     height: 100px;
-    padding: 0px;
+    padding: 0px
     }
 .header {
     text-align: center;
@@ -83,9 +83,12 @@ nav:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 51%;
     border: 1px solid #DC5F00;
     border-radius: 2px;
+    box-shadow: 0px 0px 20px 10px #DC5F00;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 .product {
@@ -94,7 +97,7 @@ nav:hover {
     margin: auto;
     text-align: center;
     font-family: arial;
-    background-color: white;
+    background-color: #EEEEEE;
 }
 .price {
     color: grey;
@@ -105,7 +108,7 @@ nav:hover {
     outline: 0;
     padding: 16px;
     color: white;
-    background-color: black;
+    background-color: #DC5F00;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -145,6 +148,9 @@ body h1,h2 {
     margin-left: auto;
     margin-right: auto;
     padding: 100px;
+}
+.row h1 {
+    color: #CF0A0A;
 }
 @media  screen and (max-width : 600px) {
     .column {
