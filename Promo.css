@@ -46,7 +46,7 @@ nav:hover {
       
       .NavBar a:hover { background: #ffe082; }
       
-      .NavBar a:active { background: #000000; color: #EEEEEE; }
+      .NavBar a:active { background: pink; }
       
       .navicon {
         padding: 23px 22px;
@@ -92,13 +92,14 @@ nav:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 72%;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .img1 {
     border: 1px solid #DC5F00;
-    border-radius: 2px;
+    border-radius: 20px;
+    background-color: #eeeeee;
 }
 
 .product {
@@ -109,7 +110,7 @@ nav:hover {
     font-family: arial;
     background-color: #EEEEEE;
     border: 1px solid #DC5F00;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .price {
     color: #000000;
@@ -134,10 +135,6 @@ nav:hover {
 }
 * {
     box-sizing: border-box;
-}
-.SosKing .column{
-    margin-top: -15%;
-    margin-bottom: 15%;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -185,7 +182,6 @@ color: orange;
 #main-footer{
         text-align: center;
         background-color:cornsilk;
-        margin-top: -15%;
     }
     .fa-instagram {
         background: #125688;
