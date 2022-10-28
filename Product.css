@@ -46,7 +46,7 @@ nav:hover {
       
       .NavBar a:hover { background: #ffe082; }
       
-      .NavBar a:active { background: #000000; color: #EEEEEE; }
+      .NavBar .active { background: grey; color: #EEEEEE; }
       
       .navicon {
         padding: 23px 22px;
