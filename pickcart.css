@@ -1,105 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-* {  
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: poppins, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #666666;
-    background-image: url();
-    background-size: cover;
-
-}
-
-nav {
-    width: 300px;
-    background: white;
-    color: rgba(0, 0, 0, 0.87);
-    -webkit-clip-path: circle(24px at 30px 24px);
-    clip-path: circle(24px at 32px 24px);
-    -webkit-transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
-    transition: -webkit-clip-path 0.5625s, clip-path 0.375s;
-  }
-  
-  nav:hover {
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-    -webkit-transition-duration: 0.75s;
-    transition-duration: 0.75s;
-    -webkit-clip-path: circle(390px at 225px 24px);
-    clip-path: circle(390px at 150px 24px);
-  }
-  
-  .NavBar a {
-    display: block;
-    line-height: 50px;
-    padding: 0 20px;
-    color: inherit;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .NavBar a:hover { background: #ffe082; }
-  
-  .NavBar a:active { background: #ffca28; }
-  
-  .navicon {
-    padding: 23px 20px;
-    cursor: pointer;
-    -webkit-transform-origin: 32px 24px;
-    -ms-transform-origin: 32px 24px;
-    transform-origin: 32px 24px;
-  }
-  
-  .navicon div {
-    position: relative;
-    width: 20px;
-    height: 2px;
-    background: rgba(0, 0, 0, 0.87);
-  }
-  
-  .navicon div:before,
-  .navicon div:after {
-    display: block;
-    content: "";
-    width: 20px;
-    height: 2px;
-    background: rgba(0, 0, 0, 0.87);
-    position: absolute;
-  }
-  
-  .navicon div:before { top: -7px; }
-  
-  .navicon div:after { top: 7px; }
-
-.wrapper {
-    margin: 0 auto;
-    margin-top: -20%;
-    width: 100%;
-    max-width: 1140px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.Cart-Container{
-    width: 70%;
-    height: 85%;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 25px 40px #1687d933;
-   }
-
-   body{
+body{
     background: #ddd;
     min-height: 100vh;
     vertical-align: middle;
@@ -112,12 +11,11 @@ nav {
     margin-bottom: 5vh;
 }
 .card{
-    margin: left;
-    max-width: 850px;
-    width: 60%;
-    margin-right: 10%;
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: transparent;
 }
 @media(max-width:767px){
@@ -128,10 +26,8 @@ nav {
 .cart{
     background-color: #fff;
     padding: 4vh 5vh;
-    border-bottom-left-radius: 2rem;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 @media(max-width:767px){
     .cart{
@@ -142,16 +38,15 @@ nav {
 }
 .summary{
     background-color: #ddd;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     padding: 4vh;
     color: rgb(65, 65, 65);
 }
 @media(max-width:767px){
     .summary{
     border-top-right-radius: unset;
-    border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 1rem;
     }
 }
 .summary .col-2{
@@ -185,13 +80,13 @@ img{
     width: 3.5rem;
 }
 .back-to-shop{
-    margin-top: 0.4rem;
+    margin-top: 4.5rem;
 }
 h5{
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 hr{
-    margin-top: 0.25rem;
+    margin-top: 1.25rem;
 }
 form{
     padding: 2vh 0;
@@ -251,4 +146,3 @@ a:hover{
     background-position-x: 95%;
     background-position-y: center;
 }
-   
