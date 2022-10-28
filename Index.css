@@ -360,24 +360,6 @@ nav {
   font-size: 20px;
 }
 
-a[href^="tel:"] {
-  color: #CF0A0A;
-  text-decoration: none;
-  margin-right: 0.em;
-}
-
-a[href^="email:"] {
-  color: #CF0A0A;
-  text-decoration: none;
-  margin-right: 0.em;
-}
-
-a[href^="face:"] {
-  color: #CF0A0A;
-  text-decoration: none;
-  margin-right: 0.em;
-}
-
 #main-footer{
   text-align: center;
   background-color:cornsilk;
