@@ -377,3 +377,29 @@ a[href^="face:"] {
   text-decoration: none;
   margin-right: 0.em;
 }
+
+#main-footer{
+  text-align: center;
+  background-color:cornsilk;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.imgsubhead {
+  float: right;
+  border: 1px black;
+  margin: 0px 300px 0px 0px;
+}
+
+.subinfo {
+  padding-left: 300px ;
+  padding-top: 100px;
+}
