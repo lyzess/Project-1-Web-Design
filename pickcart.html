@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="pickcart.css">
 </head>
 <body>
-    <!--Navigatio Bar-->
+    <div class="header">
+        <img src="img/Kampung Burger Logo 1.png" alt="Kampung Burger Logo">
+        <h1>KAMPUNG BURGER</h1>
+</div>
+<br><br>
+    <!--Navigation Bar-->
     <nav class="NavBar">
         <div class="navicon">
           <div></div>
         </div>
       
-        <a>HOME</a>
-        <a>PRODUCT</a>
-        <a>PROMOTION</a>
-        <a>GALERY</a>
-        <a>LOGIN</a>
+        <a href="Index.html">HOME</a>
+        <a href="Product.html">PRODUCT</a>
+        <a href="Promo.html">PROMOTION</a>
+        <a href="pickcart.html">YOUR CART</a>
+        <a href="Login.html">LOGIN</a>
       
       </nav>
-
+      <!--Order Cart-->
       <div class="card">
         <div class="row">
             <div class="col-md-8 cart">
@@ -32,6 +41,7 @@
                 </div>    
                 <div class="row border-top border-bottom">
                     <div class="row main align-items-center">
+                        <!--First Item-->
                         <div class="col-2"><img class="img-fluid" src="/img/Home/Home1.png"></div>
                         <div class="col">
                             <div class="row text-muted">Shirt</div>
@@ -47,6 +57,7 @@
                     <div class="row main align-items-center">
                         <div class="col-2"><img class="img-fluid" src="/img/Home/Home2.png"></div>
                         <div class="col">
+                            <!--Second Item-->
                             <div class="row text-muted">Shirt</div>
                             <div class="row">Cotton T-shirt</div>
                         </div>
@@ -60,6 +71,7 @@
                     <div class="row main align-items-center">
                         <div class="col-2"><img class="img-fluid" src="img/Home/Home3.png"></div>
                         <div class="col">
+                            <!--Third Item-->
                             <div class="row text-muted">Shirt</div>
                             <div class="row">Cotton T-shirt</div>
                         </div>
@@ -69,8 +81,9 @@
                         <div class="col">RM 44.00 <span class="close">&#10005;</span></div>
                     </div>
                 </div>
-                <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
+                <div class="back-to-shop"><a href="Product.html">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
             </div>
+            <!--Summary-->
             <div class="col-md-4 summary">
                 <div><h5><b>Summary</b></h5></div>
                 <hr>
@@ -79,9 +92,11 @@
                     <div class="col text-right">RM 132.00</div>
                 </div>
                 <form>
+                    <!--Delivery-->
                     <p>DELIVERY TYPE</p>
                     <select><option class="text-muted">Standard-Delivery- RM 5.00</option>
                     <option>Self-Pick-Up- RM 0.00</option></select>
+                    <!--Redeem Code-->
                     <p>GIVE CODE</p>
                     <input id="code" placeholder="Enter your code">
                 </form>
@@ -89,6 +104,7 @@
                     <div class="col">TOTAL PRICE</div>
                     <div class="col text-right">RM 137.00</div>
                 </div>
+                <!--Checkout-->
                 <button class="btn">CHECKOUT</button>
             </div>
         </div>
