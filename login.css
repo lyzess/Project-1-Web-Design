@@ -14,6 +14,19 @@ body {
     background-size: cover;
 
 }
+.header img {
+
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 0px
+    }
+.header {
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    color: #EEEEEE;
+    }
 
 nav {
     width: 300px;
