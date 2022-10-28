@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
@@ -45,7 +46,7 @@ nav {
   
   .NavBar a:hover { background: #ffe082; }
   
-  .NavBar a:active { background: #ffca28; }
+  .NavBar .active { background: grey; color: #EEEEEE; }
   
   .navicon {
     padding: 23px 20px;
