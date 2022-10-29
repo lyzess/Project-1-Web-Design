@@ -62,7 +62,7 @@ nav {
   
   .NavBar a:hover { background: #ffe082; }
   
-  .NavBar a:active { background: #ffca28; }
+  .NavBar .active { background: grey; }
   
   .navicon {
     padding: 23px 20px;
