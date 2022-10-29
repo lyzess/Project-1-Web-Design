@@ -5,11 +5,14 @@
     height: 100px;
     padding: 0px
     }
-.header {
-    text-align: center;
-    padding: 20px;
-    }
-
+    .header {
+        text-align: center;
+        padding: 10px;
+        font-size: 22px;
+        color: #EEEEEE;
+        text-shadow: 3px 3px 2px  #DC5F00;
+    
+        }
 /* NavBar Css Start */
 nav {
     width: 300px;
@@ -46,7 +49,7 @@ nav:hover {
       
       .NavBar a:hover { background: #ffe082; }
       
-      .NavBar a:active { background: pink; }
+      .NavBar .active { background: grey; color: #EEEEEE; }
       
       .navicon {
         padding: 23px 22px;

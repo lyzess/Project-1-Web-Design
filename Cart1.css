@@ -1,3 +1,7 @@
+body{
+	
+}
+
 .header img {
 
     float: left;
@@ -5,12 +9,14 @@
     height: 100px;
     padding: 0px
     }
-.header {
-    text-align: center;
-    padding: 20px;
-    font-size: 22px;
-    color: grey;
-    }
+	.header {
+        text-align: center;
+        padding: 10px;
+        font-size: 22px;
+        color: #DC5F00;
+        text-shadow: 3px 4px 2px  #000000;
+    
+        }
 nav {
     width: 300px;
     background: white;
