@@ -23,10 +23,13 @@ body {
     }
 .header {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 22px;
     color: #EEEEEE;
+    text-shadow: 3px 3px 2px  #DC5F00;
+
     }
+
 
 nav {
     width: 300px;
@@ -95,7 +98,7 @@ nav {
 
 .wrapper {
     margin: 0 auto;
-    margin-top: -20%;
+    margin-top: -30%;
     width: 100%;
     max-width: 1140px;
     min-height: 100vh;
