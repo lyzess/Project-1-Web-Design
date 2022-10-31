@@ -134,7 +134,7 @@ nav {
 }
 
 .login .col-right{
-    padding: 60px 30px;
+    padding: 60px 30px;  /* Shape of right side */
     width: 50%;
     margin-left: -10%;
 }
